@@ -88,10 +88,12 @@ Illiterate through each item within the list and use the function "checkValidity
 
 function checkValidity(validity){
 if (validity === true){
-console.log("This is good")
+console.log("This is good");
+return validity;
 }
 if (validity === false){
-console.log("This is bad")
+console.log("This is bad");
+return validity
 }
 }
 
